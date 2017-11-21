@@ -1,0 +1,18 @@
+{% import "_includes/forms" as forms %}
+
+{{ forms.multiselectField({
+	label : 'Allowed Sections' | t,
+	instructions : 'Determines the sections that may be chosen with this field.' | t,
+	id : 'sections',
+	name : 'sections',
+	values: settings.sections,
+	options : sections
+}) }}
+
+{{ forms.checkboxField({
+	label : 'Allow Multiple' | t,
+	instructions : 'If checked, the user can select multiple sections, otherwise they can only select one.' | t,
+	id : 'multiple',
+	name : 'multiple',
+	checked: settings.multiple
+}) }}
