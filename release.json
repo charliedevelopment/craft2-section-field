@@ -1,11 +1,21 @@
 [
     {
         "version": "1.0.0",
-        "downloadUrl": "https://github.com/charliedevelopment/Section-Field/archive/master.zip?1.0.0",
+        "downloadUrl": "https://github.com/charliedevelopment/Craft2-Section-Field/archive/master.zip?",
         "date": "2017-11-21T22:51:08+00:00",
         "notes": [
             "# Initial Release",
             "[Added] SVG Icon"
+        ]
+    },
+    {
+        "version": "1.0.1",
+        "downloadUrl": "https://github.com/charliedevelopment/Craft2-Section-Field/archive/master.zip",
+        "date": "2017-12-05T23:12:08+00:00",
+        "notes": [
+            "[Added] Schema versioning",
+            "[Added] Documentation Link",
+            "[Fixed] Broken feed URL"
         ]
     }
 ]
